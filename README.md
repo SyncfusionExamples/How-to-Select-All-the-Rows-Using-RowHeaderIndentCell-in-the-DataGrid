@@ -1,6 +1,5 @@
 # How-to-Select-All-the-Rows-Using-RowHeaderIndentCell-in-the-DataGrid
-This example illustrates How to Select All the Rows Using RowHeaderIndentCell in the DataGrid
-By default, in a [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid){target="_blank"}, rows was not selected when the RowHeaderIndentCell was clicked. To select all the rows using the RowHeaderIndentCell , you can utilize the MouseUp event. In this event, you can select all the rows by accessing the row index and column index.
+In a [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid){target="_blank"}, the default behavior does not allow for the selection of all rows when the `RowHeaderIndentCell` is clicked. However, you can implement this functionality by handling the `MouseUp` event. This event can be used to select all rows programmatically by accessing the row and column indices.
 
 **C#**
  
